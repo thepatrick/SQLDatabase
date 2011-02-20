@@ -3,6 +3,10 @@ SQLDatabase
 
 An Objective-C wrapper around the SQLite3 API. Suitable for use on Mac OS X and iOS.
 
+Extended to add support for retrieving dates as NSDate objects, and for numbers as numbers.
+
+To use, just add all files to your Xcode project, add a reference to libsqlite3.dylib, and add an #import "SQLDatabase.h".
+
 
 Copyright &copy; 2002, Blackhole Media. All rights reserved.
 Portions Copyright &copy; 2009-2011 Patrick Quinn-Graham. All rights reserved.
